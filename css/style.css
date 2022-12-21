@@ -1,0 +1,100 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+body, html {
+    font-family: 'Epilogue', sans-serif;
+}
+
+nav {
+  display: grid;
+  grid-template-columns: 1fr 4fr 1fr;
+  grid-auto-rows: auto;
+  grid-gap: 1em;
+  align-items: center;
+  text-align: center;
+  border-bottom: 4px solid black;  
+}
+
+.icons {
+    display: flex;
+}
+
+.icons img {
+    width: 35%;
+    
+}
+.nav {
+    display: grid;
+    gap: 20em;
+    text-align: right;
+    justify-content: space-evenly;
+    
+}
+
+.navLinks {
+    display: flex;
+    font-size: 30px;
+    text-decoration: none;
+    padding: 1rem;
+    align-items: center;
+    gap:3em;
+    
+ 
+        
+}
+
+#expansions {
+    display: grid;
+    align-items: center;
+    text-align: center;    
+    grid-template-columns: repeat(4, 1fr);    
+}
+
+.block {
+    align-items: center;
+    justify-content: center;    
+}
+
+.block img {
+    width: 75%;    
+}
+
+.blockTwo img {
+    width: 75%;
+    border-radius: 10%;    
+}
+
+#guides {
+    display: grid;
+    align-items: center;
+    text-align: center;
+    grid-template-columns: repeat(4, 1fr);
+    
+}
+
+h1 {
+    background-color: lightgray;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: lightcoral;
+    color: white;
+    text-align: center;
+}
+
+.footer button {
+    background-color: brown;
+    font-size: 30px;
+    border-radius: 15%;
+}
